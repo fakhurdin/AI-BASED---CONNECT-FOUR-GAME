@@ -93,7 +93,7 @@ A quick walkthrough of the game is available in the included video:
 ## 👥 Contributors
 
 - **Fakhur Ul Din**  
-- **Ayesha Siquqe**  
+- **Aysha Siddiqui**  
 - **Hasnain Memon**
 
 ---
