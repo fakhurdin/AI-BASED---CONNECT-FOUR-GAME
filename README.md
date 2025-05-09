@@ -1,109 +1,141 @@
 # 🧠 AI-Based Connect Four Game
 
-A Python implementation of the classic Connect Four game enhanced with an AI opponent. This project uses the **Minimax algorithm with alpha-beta pruning** to enable the AI to make strategic decisions, offering a challenging experience for players.
+A Python-based version of the classic Connect Four game enhanced with an AI opponent. The game utilizes the **Minimax algorithm with Alpha-Beta pruning** to create a competitive and intelligent gameplay experience.
+
+---
 
 ## 🎮 Game Overview
 
-Connect Four is a two-player connection game where players take turns dropping colored discs into a vertical grid. The goal is to be the first to form a horizontal, vertical, or diagonal line of four discs.
+Connect Four is a two-player strategy game where players take turns dropping discs into a grid. The first player to connect four of their discs horizontally, vertically, or diagonally wins the game.
 
-In this AI-enhanced version:
+This project features:
 
-- **Single Player Mode**: Play against an AI that uses the Minimax algorithm.
-- **Graphical Interface**: Built with **Pygame** for an interactive visual experience.
+- 🧠 **AI Opponent** powered by Minimax + Alpha-Beta pruning  
+- 🖼️ **Graphical Interface** developed with `pygame`  
+- 🎥 **Tutorial video** included to demonstrate features  
+- 🧑‍💻 Built in **Python**, beginner-friendly and open for contributions
+
+---
 
 ## 🧠 AI Implementation
 
-- **Minimax Algorithm**: Simulates future game states to choose optimal moves.
-- **Alpha-Beta Pruning**: Optimizes the Minimax algorithm by skipping unnecessary branches in the decision tree to improve performance.
+- **Minimax Algorithm**: Explores all possible future game states up to a fixed depth to decide the optimal move.
+- **Alpha-Beta Pruning**: Speeds up decision-making by cutting off paths that won’t be chosen.
+
+---
 
 ## 📁 Project Structure
 
+```
 AI-BASED---CONNECT-FOUR-GAME/
-├── assests/ # Game assets like images and sounds
-├── Project_Tutorial.mp4 # Tutorial video showing gameplay
-├── projectmain.py # Main script to run the game
-└── README.md # Project documentation
+├── assests/                 # Game assets (images, sounds)
+├── Project_Tutorial.mp4     # Demo video of the game
+├── projectmain.py           # Main Python script
+└── README.md                # Project documentation
+```
 
+---
 
-## 🛠️ Installation
+## ⚙️ Installation
 
-To run the game locally:
-
-1. **Clone the repository:**
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/fakhurdin/AI-BASED---CONNECT-FOUR-GAME.git
 cd AI-BASED---CONNECT-FOUR-GAME
+```
 
-    (Optional) Create a virtual environment:
+### 2. (Optional) Create a virtual environment
 
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Activate it:
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
 
-    Install dependencies:
+### 3. Install dependencies
 
+```bash
 pip install pygame numpy
+```
 
-🚀 Usage
+---
 
-Run the game using:
+## 🚀 Running the Game
 
+To start the game, simply run:
+
+```bash
 python projectmain.py
+```
 
-How to Play
+### Controls
 
-    Click on a column to drop your disc.
+- Click on a column to drop your disc
+- AI will automatically play its turn
+- First to connect four discs in a row wins!
 
-    The AI will automatically respond.
+---
 
-    First to align four discs horizontally, vertically, or diagonally wins.
+## 📹 Gameplay Demo
 
-📹 Tutorial
+A quick walkthrough of the game is available in the included video:
 
-For a quick demo, watch the included video:
+🎬 `Project_Tutorial.mp4`
 
-📁 Project_Tutorial.mp4
+> Make sure your system has a compatible media player for `.mp4` files.
 
-    Make sure your system supports .mp4 playback.
+---
 
-👥 Contributors
+## 👥 Contributors
 
-    Fakhur Ul Din
+- **Fakhur Ul Din**  
+- **Ayesha Siquqe**  
+- **Hasnain Memon**
 
-    Ayesha Siquqe
+---
 
-    Hasnain Memon
+## 🤝 Contributing
 
-🤝 Contributing
+Contributions are welcome! To get involved:
 
-Contributions are welcome! To contribute:
+1. Fork the repository
+2. Create a new branch:
 
-    Fork the repo
+```bash
+git checkout -b feature/YourFeatureName
+```
 
-    Create your branch:
+3. Make your changes and commit:
 
-git checkout -b feature/YourFeature
+```bash
+git commit -m "Add new feature"
+```
 
-    Make your changes and commit:
+4. Push to your fork:
 
-git commit -m "Add your feature"
+```bash
+git push origin feature/YourFeatureName
+```
 
-    Push to your fork:
+5. Open a Pull Request
 
-git push origin feature/YourFeature
+---
 
-    Submit a Pull Request on GitHub
+## 📄 License
 
-📄 License
+This project is licensed under the [MIT License](LICENSE).
 
-Licensed under the MIT License.
-📬 Contact
+---
 
-    GitHub Issues: Submit a bug or suggestion
+## 📬 Contact
 
-    Email: fakhurdin987@gmail.com
+- **GitHub Issues**: [Open an issue](https://github.com/fakhurdin/AI-BASED---CONNECT-FOUR-GAME/issues)
+- **Email**: [fakhurdin987@gmail.com](mailto:fakhurdin987@gmail.com)
 
-Enjoy the game and feel free to contribute!
+---
 
-
-Let me know if you’d also like a `requirements.txt` or a GitHub Actions workflow file!
+> Built with 💻 and 🎮 by passionate developers.
